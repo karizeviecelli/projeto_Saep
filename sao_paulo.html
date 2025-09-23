@@ -1,0 +1,121 @@
+<!doctype html> <!-- Declaração do tipo de documento HTML5 -->
+<html lang="pt-br"> <!-- Elemento raiz HTML com idioma português brasileiro -->
+<head> <!-- Seção de metadados da página -->
+    <meta charset="utf-8"> <!-- Codificação de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Configuração responsiva -->
+    <title>São Paulo - Estudos</title> <!-- Título da página -->
+    <link href="css/bootstrap.css" rel="stylesheet"> <!-- Arquivo CSS do Bootstrap -->
+    <link href="css/font.css" rel="stylesheet"> <!-- Arquivo CSS de fontes -->
+    <link href="css/blog.css" rel="stylesheet"> <!-- Arquivo CSS personalizado do blog -->
+</head>
+<body> <!-- Início do corpo da página -->
+<div class="container"> <!-- Container principal Bootstrap -->
+    <header class="blog-header py-3"> <!-- Cabeçalho do blog com padding vertical -->
+        <div class="row flex-nowrap justify-content-between align-items-center"> <!-- Linha flexível com alinhamento -->
+            <div class="col-4 pt-1"></div> <!-- Coluna esquerda vazia -->
+            <div class="col-4 text-center"> <!-- Coluna central com texto centralizado -->
+                <a class="blog-header-logo text-dark" href="sobre_mim.html">Sobre Mim</a> <!-- Logo/título do blog -->
+            </div>
+            <div class="col-4 d-flex justify-content-end align-items-center"></div> <!-- Coluna direita vazia -->
+        </div>
+    </header> <!-- Fim do cabeçalho -->
+
+    <div class="nav-scroller py-1 mb-2"> <!-- Container da navegação -->
+        <nav class="nav d-flex justify-content-between"> <!-- Menu de navegação flexível -->
+            <a class="p-2 text-muted" href="sobre_mim.html">Infância - Rio de Janeiro</a> <!-- Link para página 1 -->
+            <a class="p-2 text-muted active" href="sao_paulo.html">São Paulo - Estudos</a> <!-- Link ativo da página atual -->
+            <a class="p-2 text-muted" href="santa_catarina.html">Santa Catarina</a> <!-- Link para página 3 -->
+            <a class="p-2 text-muted" href="ensino_medio.html">Ensino Médio</a> <!-- Link para página 4 -->
+            <a class="p-2 text-muted" href="contato.html">Contato</a> <!-- Link para página de contato -->
+        </nav>
+    </div> <!-- Fim da navegação -->
+
+    <div class="jumbotron p-3 p-md-5 text-white rounded bg-success"> <!-- Banner principal com fundo verde -->
+        <div class="col-md-6 px-0"> <!-- Coluna responsiva sem padding horizontal -->
+            <h1 class="display-4 font-italic">Período em São Paulo</h1> <!-- Título principal -->
+            <p class="lead my-3">Dois anos de muito estudo e aprendizado</p> <!-- Subtítulo -->
+        </div>
+    </div> <!-- Fim do banner -->
+
+<main role="main" class="container"> <!-- Conteúdo principal da página -->
+    <div class="row"> <!-- Linha para layout em colunas -->
+        <div class="col-md-8 blog-main"> <!-- Coluna principal do conteúdo -->
+            <div class="blog-post"> <!-- Primeiro post do blog -->
+                <p class="blog-post-meta">Período de <strong>2013-2014</strong> | Idade: 5-6 anos</p> <!-- Metadados do post -->
+                <p>Com 5 anos me mudei para São Paulo com minha mãe e irmã. Lá eu estudava muito em diferentes escolas até o anoitecer, morei por 2 anos em São Paulo, completando meu 1º ano do fundamental.</p> <!-- Parágrafo sobre mudança para SP -->
+                
+                <h3>Cronograma Escolar</h3> <!-- Subtítulo da seção -->
+                <table class="table table-striped"> <!-- Tabela com linhas alternadas -->
+                    <thead> <!-- Cabeçalho da tabela -->
+                        <tr> <!-- Linha do cabeçalho -->
+                            <th>Ano</th> <!-- Coluna ano -->
+                            <th>Idade</th> <!-- Coluna idade -->
+                            <th>Série</th> <!-- Coluna série -->
+                            <th>Atividades</th> <!-- Coluna atividades -->
+                        </tr>
+                    </thead>
+                    <tbody> <!-- Corpo da tabela -->
+                        <tr> <!-- Linha pré-escola -->
+                            <td>2013</td> <!-- Ano 2013 -->
+                            <td>5 anos</td> <!-- Idade 5 anos -->
+                            <td>Pré-escola</td> <!-- Série pré-escola -->
+                            <td>Adaptação à nova cidade</td> <!-- Atividade principal -->
+                        </tr>
+                        <tr> <!-- Linha 1º ano -->
+                            <td>2014</td> <!-- Ano 2014 -->
+                            <td>6 anos</td> <!-- Idade 6 anos -->
+                            <td>1º ano fundamental</td> <!-- Série 1º ano -->
+                            <td>Estudos intensivos até anoitecer</td> <!-- Atividade principal -->
+                        </tr>
+                    </tbody>
+                </table> <!-- Fim da tabela -->
+            </div> <!-- Fim do primeiro post -->
+
+            <div class="blog-post"> <!-- Segundo post do blog -->
+                <h2 class="blog-post-title">Rotina de Estudos</h2> <!-- Título do post -->
+                <p>Durante esse período, desenvolvi uma rotina intensa de estudos, frequentando diferentes escolas e atividades complementares.</p> <!-- Parágrafo sobre rotina -->
+                
+                <h3>Escolas Frequentadas</h3> <!-- Subtítulo -->
+                <table class="table table-bordered"> <!-- Tabela com bordas -->
+                    <thead> <!-- Cabeçalho da tabela -->
+                        <tr>
+                            <th>Escola</th> <!-- Coluna escola -->
+                            <th>Período</th> <!-- Coluna período -->
+                            <th>Tipo</th> <!-- Coluna tipo -->
+                        </tr>
+                    </thead>
+                    <tbody> <!-- Corpo da tabela -->
+                        <tr> <!-- Linha escola regular -->
+                            <td>Escola Regular</td> <!-- Nome genérico da escola -->
+                            <td>Manhã</td> <!-- Período manhã -->
+                            <td>Ensino Fundamental</td> <!-- Tipo de ensino -->
+                        </tr>
+                        <tr> <!-- Linha atividades complementares -->
+                            <td>Atividades Complementares</td> <!-- Nome das atividades -->
+                            <td>Tarde</td> <!-- Período tarde -->
+                            <td>Reforço Escolar</td> <!-- Tipo de atividade -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div> <!-- Fim do segundo post -->
+        </div> <!-- Fim da coluna principal -->
+
+        <aside class="col-md-4 blog-sidebar"> <!-- Barra lateral -->
+            <div class="p-3 mb-3 bg-light rounded"> <!-- Card de informações -->
+                <h4 class="font-italic">Resumo do Período</h4> <!-- Título do card -->
+                <p><strong>Duração:</strong> 2 anos</p> <!-- Duração do período -->
+                <p><strong>Conquista:</strong> 1º ano fundamental completo</p> <!-- Principal conquista -->
+                <p><strong>Característica:</strong> Estudos intensivos</p> <!-- Característica marcante -->
+            </div>
+        </aside> <!-- Fim da sidebar -->
+    </div> <!-- Fim da linha -->
+</main> <!-- Fim do conteúdo principal -->
+
+<footer class="blog-footer"> <!-- Rodapé da página -->
+    <p>Projeto desenvolvido para fins acadêmicos.</p> <!-- Texto do rodapé -->
+    <p><a href="#">Voltar ao topo</a></p> <!-- Link para voltar ao topo -->
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> <!-- Biblioteca jQuery -->
+</body> <!-- Fim do corpo -->
+</html> <!-- Fim do documento HTML -->
