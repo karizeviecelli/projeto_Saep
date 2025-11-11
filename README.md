@@ -85,7 +85,9 @@ flowchart LR
 ```
 
 ---
+##💻 **ANTES DE EXECUTAR O PROJETO, INICIAR O XAMPP E INICIAR O SERVIÇO MYSQL**
 
+---
 ## 🙋 Dúvidas?
 - Pergunte no grupo da turma.
 - Consulte a [documentação oficial do GitHub](https://docs.github.com/).
