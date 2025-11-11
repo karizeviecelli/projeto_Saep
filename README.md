@@ -16,7 +16,7 @@ Antes de participar, garanta que você tenha:
 ## 🔗 Como participar
 
 ### 1. Faça um fork do repositório
-- Entre neste link: [Projeto SAEP]((https://github.com/karizeviecelli/projeto_Saep.git)).
+- Entre neste link: ((https://github.com/karizeviecelli/projeto_Saep.git)).
 - Clique no botão **Fork** no canto superior direito.
 - Agora você terá uma cópia do projeto no seu perfil do GitHub.
 
